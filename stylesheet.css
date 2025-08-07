@@ -1,0 +1,307 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+    color: white;
+}
+
+.headertop {
+    width: 100%;
+    height: 93px;
+    background-color: rgba(181, 0, 20, 1);
+    display: flex;
+    border-bottom: 2px solid black;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.headertop ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    gap: 40px;
+}
+
+.headerbottom {
+    width: 100%;
+    height: 30px;
+    background-color: rgba(37, 37, 37, 1);
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.headertop ul li:first-child {
+    margin-top: 85px;
+}
+
+.headertop ul li:last-child {
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 5px;
+}
+
+#bbc {
+    font-size: 14px;
+    font-weight: 400;
+    margin-right: 18.5rem;
+}
+
+.background {
+    display: flex;
+    width: 1938px;
+    height: 679px;
+    left: -18px;
+    top: 123px;
+    background: url('dude.png');
+    align-items: center;
+    justify-content: left;
+}
+
+.seebox {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 629px;
+    height: 348px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.seetext {
+    display: flex;
+    flex-direction: column;
+    margin-right: 56px;
+    gap: 25px;
+}
+
+#heiko1 {
+    width: 242px;
+    height: 90px;
+}
+
+#aperol1 {
+    width: 275px;
+    height: 134px;
+}
+
+#heiko {
+    font-family: 'Roboto Condensed';
+    font-weight: 700;
+    font-size: 38px;
+}
+
+#aperol {
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 24px;
+}
+.background2 {
+    display: flex;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.94);
+    height: 712px;
+    align-items: center; justify-content: center;
+}
+.picturebox{
+    display: flex;
+    flex-direction: column;
+    align-items: center; justify-content: center;
+    gap: 15px;
+}
+
+.texbox2 {
+    display: flex;
+    flex-direction: column;
+    width: 427px;
+}
+
+#dry1 {
+    width: 128px;
+    height: 42px;
+    line-height: 42px;
+    padding-top: 46px;
+}
+
+#wutz1 {
+    width: 198px;
+    height: 26px;
+    padding-top: 46px;
+}
+
+#wutz {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 100%
+}
+
+#halt1 {
+    width: 427px;
+    height: 219px;
+    padding-top: 66px;
+    margin-bottom: 132px;
+}
+
+.extra-space {
+  display: inline-block;
+  margin-top: 25px; 
+}
+
+#halt {
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.buttonbox {
+    display: flex;
+    width: 364px;
+    gap: 16px;
+}
+
+.custom-btn {
+    background: rgba(166, 33, 32, 1);
+    border: 1px solid white;                
+    border-radius: 40px;                 
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 47px;
+    text-align: center;
+    cursor: pointer;
+    transition: background 0.2s;
+    width: 174px;
+    height: 47px;
+}
+.custom-btn:hover {
+    background-color: rgb(150, 20, 20);
+}
+
+.background3 {
+    display: flex;
+    width: 100%;
+    height: 642px;
+}
+
+.foodtextbox {
+    display: flex;
+    width: 50%;
+    height: 642px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(166, 33, 32, 1);
+}
+
+.foodtext {
+    display: flex;
+    height: 340px;
+    width: 300px;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    padding-left: 88px;
+    padding-bottom: 23px;
+}
+
+.buchen{
+    width: 231px;
+    height: 92px;
+    font-weight: 700;
+    font-size: 32px;  
+    line-height: 52px;
+    margin-bottom: 39px; 
+}
+
+.foodlist {
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 24px;
+    list-style: none;
+    padding-left: 0;
+}
+
+.foodlist li {
+    margin-bottom: 12px;
+    position: relative;
+    padding-left: 10px;
+}
+.foodlist li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 11px;
+    width: 5px;
+    height: 5px;
+    background: white;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.custom-btn1 {
+    background: white;           
+    border-radius: 40px; 
+    border: 1px solid red;                
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    color:rgba(37, 37, 37, 1);
+    cursor: pointer;
+    transition: background 0.2s;
+    width: 174px;
+    height: 47px;
+}
+
+.custom-btn1:hover {
+    background-color: rgb(233, 218, 218);
+}
+
+.background4 {
+    display: flex;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.94);
+    justify-content: center;
+    height: 1186px;
+}
+
+.handwerkbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    width: 652px;
+    height: 466px;
+}
+
+.handwerk {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: center;
+    margin-bottom: 16px;
+    margin-top: 119px;
+}
+
+.handwerk1 {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 100%;
+    text-align: center;
+    margin-bottom: 65px;
+}
+
+.longstory {
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 24px;
+    text-align: center;
+    margin-bottom: 37px;
+}
