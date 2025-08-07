@@ -6,7 +6,7 @@
     color: white;
 }
 
-.headertop {
+.header__top {
     width: 100%;
     height: 93px;
     background-color: rgba(181, 0, 20, 1);
@@ -18,7 +18,7 @@
     font-size: 16px;
 }
 
-.headertop ul {
+.header__nav-list {
     display: flex;
     flex-direction: row;
     list-style: none;
@@ -28,35 +28,39 @@
     gap: 40px;
 }
 
-.headerbottom {
+.header__nav-list li:first-child {
+    margin-top: 85px;
+}
+
+.header__nav-list li:last-child {
+    height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+}
+
+.header__bottom {
     width: 100%;
     height: 30px;
     background-color: rgba(37, 37, 37, 1);
     display: flex;
     justify-content: right;
-    align-items: center;
-}
-
-.headertop ul li:first-child {
-    margin-top: 85px;
-}
-
-.headertop ul li:last-child {
-    height: 28px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    gap: 5px;
-}
-
-#bbc {
     font-size: 14px;
+    text-align: center;
+    align-items: center;
+}
+
+.header__open {
+    font-weight: 700;
+}
+
+.header__open-time {
     font-weight: 400;
     margin-right: 18.5rem;
 }
 
-.background {
+.hero {
     display: flex;
     width: 1938px;
     height: 679px;
@@ -67,7 +71,7 @@
     justify-content: left;
 }
 
-.seebox {
+.hero__content-box {
     display: flex;
     align-items: center;
     justify-content: right;
@@ -76,36 +80,36 @@
     background-color: rgba(0, 0, 0, 0.3);
 }
 
-.seetext {
+.hero__text-box {
     display: flex;
     flex-direction: column;
     margin-right: 56px;
     gap: 25px;
 }
 
-#heiko1 {
+.hero__title-box {
     width: 242px;
     height: 90px;
 }
 
-#aperol1 {
+.hero__subtitle-box {
     width: 275px;
     height: 134px;
 }
 
-#heiko {
+.hero__title {
     font-family: 'Roboto Condensed';
     font-weight: 700;
     font-size: 38px;
 }
 
-#aperol {
+.hero__subtitle {
     font-size: 16px;
     font-weight: 200;
     line-height: 24px;
 }
 
-.background2 {
+.dry-aged {
     display: flex;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.94);
@@ -114,70 +118,72 @@
     justify-content: center;
 }
 
-.picturebox {
+.dry-aged__container {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 15px;
+    justify-content: space-between;
+    width: 1089px;
+    height: 508px;
+    margin-top: 12px;
 }
 
-.texbox2 {
+.dry-aged__text-box {
     display: flex;
     flex-direction: column;
     width: 427px;
 }
 
-#dry1 {
+.dry-aged__title-box {
     width: 128px;
     height: 42px;
     line-height: 42px;
     padding-top: 46px;
 }
 
-#wutz1 {
+.dry-aged__title {
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.dry-aged__subtitle-box {
     width: 198px;
     height: 26px;
     padding-top: 46px;
 }
 
-#wutz {
+.dry-aged__subtitle {
     font-weight: 700;
     font-size: 22px;
-    line-height: 100%
+    line-height: 100%;
 }
 
-#halt1 {
+.dry-aged__desc-box {
     width: 427px;
     height: 219px;
     padding-top: 66px;
-    margin-bottom: 132px;
+    margin-bottom: 143px;
 }
 
-.extra-space {
-    display: inline-block;
-    margin-top: 25px;
-}
-
-#halt {
+.dry-aged__desc {
     font-weight: 200;
     font-size: 16px;
     line-height: 24px;
 }
 
-.buttonbox {
+.dry-aged__extra-space {
+    display: inline-block;
+    margin-top: 25px;
+}
+
+.dry-aged__button-box {
     display: flex;
     width: 364px;
     gap: 16px;
 }
 
-.custom-btn {
-    background: rgba(166, 33, 32, 1);
-    border: 1px solid white;
+.button {
     border-radius: 40px;
     font-size: 16px;
     font-weight: 400;
-    line-height: 47px;
     text-align: center;
     cursor: pointer;
     transition: background 0.2s;
@@ -185,17 +191,44 @@
     height: 47px;
 }
 
-.custom-btn:hover {
+.button--red {
+    background: rgba(166, 33, 32, 1);
+    border: 1px solid white;
+    line-height: 47px;
+    color: white;
+}
+
+.button--red:hover {
     background-color: rgb(150, 20, 20);
 }
 
-.background3 {
+.dry-aged__image-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 12px;
+}
+
+.dry-aged__thumb-list {
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+    list-style: none;
+}
+
+.grill-course {
     display: flex;
     width: 100%;
     height: 642px;
 }
 
-.foodtextbox {
+.grill-course__button-box button {
+    margin-top: 47px;
+}
+
+.grill-course__text-box {
     display: flex;
     width: 50%;
     height: 642px;
@@ -204,7 +237,7 @@
     background-color: rgba(166, 33, 32, 1);
 }
 
-.foodtext {
+.grill-course__content {
     display: flex;
     height: 340px;
     width: 300px;
@@ -215,7 +248,7 @@
     padding-bottom: 23px;
 }
 
-.buchen {
+.grill-course__title {
     width: 231px;
     height: 92px;
     font-weight: 700;
@@ -224,7 +257,12 @@
     margin-bottom: 39px;
 }
 
-.foodlist {
+.grill-course__list-box {
+    width: 300px;
+    height: 125px;
+}
+
+.grill-course__list {
     font-size: 16px;
     font-weight: 200;
     line-height: 24px;
@@ -232,13 +270,13 @@
     padding-left: 0;
 }
 
-.foodlist li {
+.grill-course__list-item {
     margin-bottom: 12px;
     position: relative;
     padding-left: 10px;
 }
 
-.foodlist li::before {
+.grill-course__list-item::before {
     content: '';
     position: absolute;
     left: 0;
@@ -250,7 +288,7 @@
     display: inline-block;
 }
 
-.custom-btn1 {
+.button--white {
     background: white;
     border-radius: 40px;
     border: 1px solid red;
@@ -265,11 +303,15 @@
     height: 47px;
 }
 
-.custom-btn1:hover {
+.button--white:hover {
     background-color: rgb(233, 218, 218);
 }
 
-.background4 {
+.grill-course__image-box {
+    display: flex;
+}
+
+.handwerk {
     display: flex;
     width: 100%;
     flex-direction: column;
@@ -278,7 +320,7 @@
     height: 1186px;
 }
 
-.handwerkbox {
+.handwerk__box {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -288,7 +330,7 @@
     margin-bottom: 82px;
 }
 
-.handwerk {
+.handwerk__title {
     font-size: 32px;
     font-weight: 700;
     line-height: 26px;
@@ -297,7 +339,7 @@
     margin-top: 119px;
 }
 
-.handwerk1 {
+.handwerk__subtitle {
     font-size: 22px;
     font-weight: 700;
     line-height: 100%;
@@ -305,7 +347,7 @@
     margin-bottom: 65px;
 }
 
-.longstory {
+.handwerk__desc {
     font-size: 16px;
     font-weight: 200;
     line-height: 24px;
@@ -313,37 +355,45 @@
     margin-bottom: 48px;
 }
 
-.meatpicturebox {
+.handwerk__desc span {
+    display:inline-block; 
+    margin-top:10px;
+}
+
+#handwerk__line {
+    margin-bottom: 46px;
+}
+
+.handwerk__meat-pictures {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
 
-.meatpicturebox ul {
+.handwerk__meat-list {
     display: flex;
     flex-direction: row;
     list-style: none;
     gap: 16px;
 }
 
-.background5 {
+.spices {
     display: flex;
     flex-direction: row;
     width: 100%;
     height: 705px;
     background-color: rgba(166, 33, 32, 1);
-    border-bottom: 3px solid rgba(0, 0, 0, 1);
 }
 
-.spicebox {
+.spices__box {
     display: flex;
     width: 960px;
     height: 705px;
     align-items: center;
 }
 
-.spicetextbox {
+.spices__text-box {
     display: flex;
     width: 432px;
     height: 344px;
@@ -351,7 +401,7 @@
     margin-left: 124px;
 }
 
-.spicetext1 {
+.spices__title {
     width: 432px;
     height: 42px;
     font-weight: 700;
@@ -360,7 +410,7 @@
     font-size: 32px;
 }
 
-.spicetext2 {
+.spices__subtitle {
     width: 402px;
     height: 42px;
     font-weight: 700;
@@ -369,7 +419,7 @@
     margin-bottom: 33px;
 }
 
-.spicetext3 {
+.spices__desc {
     width: 431px;
     height: 219px;
     font-weight: 200;
@@ -377,8 +427,49 @@
     font-size: 16px;
 }
 
-.background6 {
-    display: flex;
+.spices__desc span {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.meats{
     width: 100%;
     height: 540px;
+    border-top: 3px solid rgba(0, 0, 0, 0.94);
+}
+
+.meats__background-box {
+    display: flex;
+    width: 100%;
+    height: 537px;
+    background: url('img/meats.jpg') no-repeat center center;
+    background-color: rgba(0, 0, 0, 0.94);
+    align-items: center;
+    justify-content: center;
+}
+
+.meats__text-box {
+    display: flex;
+    width: 218px;
+    height: 113px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.meats__title {
+    width: 218px;
+    height: 26px;
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.awards {
+    display: flex;
+    width: 100%;
+    height: 1909px;
+    background-color: rgba(0, 0, 0, 0.94);
 }
