@@ -12,7 +12,6 @@
     background-color: rgba(181, 0, 20, 1);
     display: flex;
     border-bottom: 2px solid black;
-    color: white;
     justify-content: space-around;
     align-items: center;
     font-weight: 700;
@@ -63,7 +62,7 @@
     height: 679px;
     left: -18px;
     top: 123px;
-    background: url('dude.png');
+    background: url('img/dude.jpg');
     align-items: center;
     justify-content: left;
 }
@@ -105,17 +104,21 @@
     font-weight: 200;
     line-height: 24px;
 }
+
 .background2 {
     display: flex;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.94);
     height: 712px;
-    align-items: center; justify-content: center;
+    align-items: center;
+    justify-content: center;
 }
-.picturebox{
+
+.picturebox {
     display: flex;
     flex-direction: column;
-    align-items: center; justify-content: center;
+    align-items: center;
+    justify-content: center;
     gap: 15px;
 }
 
@@ -152,8 +155,8 @@
 }
 
 .extra-space {
-  display: inline-block;
-  margin-top: 25px; 
+    display: inline-block;
+    margin-top: 25px;
 }
 
 #halt {
@@ -170,8 +173,8 @@
 
 .custom-btn {
     background: rgba(166, 33, 32, 1);
-    border: 1px solid white;                
-    border-radius: 40px;                 
+    border: 1px solid white;
+    border-radius: 40px;
     font-size: 16px;
     font-weight: 400;
     line-height: 47px;
@@ -181,6 +184,7 @@
     width: 174px;
     height: 47px;
 }
+
 .custom-btn:hover {
     background-color: rgb(150, 20, 20);
 }
@@ -211,13 +215,13 @@
     padding-bottom: 23px;
 }
 
-.buchen{
+.buchen {
     width: 231px;
     height: 92px;
     font-weight: 700;
-    font-size: 32px;  
+    font-size: 32px;
     line-height: 52px;
-    margin-bottom: 39px; 
+    margin-bottom: 39px;
 }
 
 .foodlist {
@@ -233,6 +237,7 @@
     position: relative;
     padding-left: 10px;
 }
+
 .foodlist li::before {
     content: '';
     position: absolute;
@@ -246,14 +251,14 @@
 }
 
 .custom-btn1 {
-    background: white;           
-    border-radius: 40px; 
-    border: 1px solid red;                
+    background: white;
+    border-radius: 40px;
+    border: 1px solid red;
     font-size: 16px;
     font-weight: 400;
     line-height: 22px;
     text-align: center;
-    color:rgba(37, 37, 37, 1);
+    color: rgba(37, 37, 37, 1);
     cursor: pointer;
     transition: background 0.2s;
     width: 174px;
@@ -267,18 +272,20 @@
 .background4 {
     display: flex;
     width: 100%;
+    flex-direction: column;
     background-color: rgba(0, 0, 0, 0.94);
-    justify-content: center;
+    align-items: center;
     height: 1186px;
 }
 
 .handwerkbox {
     display: flex;
     flex-direction: column;
-    align-items: center; 
+    align-items: center;
     justify-content: center;
     width: 652px;
-    height: 466px;
+    height: 533px;
+    margin-bottom: 82px;
 }
 
 .handwerk {
@@ -303,5 +310,75 @@
     font-weight: 200;
     line-height: 24px;
     text-align: center;
-    margin-bottom: 37px;
+    margin-bottom: 48px;
+}
+
+.meatpicturebox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.meatpicturebox ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 16px;
+}
+
+.background5 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 705px;
+    background-color: rgba(166, 33, 32, 1);
+    border-bottom: 3px solid rgba(0, 0, 0, 1);
+}
+
+.spicebox {
+    display: flex;
+    width: 960px;
+    height: 705px;
+    align-items: center;
+}
+
+.spicetextbox {
+    display: flex;
+    width: 432px;
+    height: 344px;
+    flex-direction: column;
+    margin-left: 124px;
+}
+
+.spicetext1 {
+    width: 432px;
+    height: 42px;
+    font-weight: 700;
+    line-height: 42px;
+    margin-bottom: 8px;
+    font-size: 32px;
+}
+
+.spicetext2 {
+    width: 402px;
+    height: 42px;
+    font-weight: 700;
+    line-height: 29px;
+    font-size: 22px;
+    margin-bottom: 33px;
+}
+
+.spicetext3 {
+    width: 431px;
+    height: 219px;
+    font-weight: 200;
+    line-height: 24px;
+    font-size: 16px;
+}
+
+.background6 {
+    display: flex;
+    width: 100%;
+    height: 540px;
 }
