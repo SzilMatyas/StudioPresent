@@ -598,7 +598,6 @@
     height: 414px;
     gap: 16px;
     justify-content: center;
-        border: 3px solid white;
     align-items: center;
     margin-bottom: 91px;
 }
@@ -610,6 +609,24 @@
     background-color: rgb(28,28,28);
     align-items: center;
     justify-content: center;
+}
+
+.reviews__container__black-box:first-child {
+    width: 250px;
+    height: 73px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 23px;
+}
+
+.reviews__container__black-box:last-child {
+    width: 83px;
+    height: 14px;
+    color: rgb(134,134,134)
+    font-size: 12px;
+    line-height: 100%;
 }
 
 .reviews__container__grey-box {
