@@ -183,7 +183,7 @@
 .button {
     border-radius: 40px;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 300;
     text-align: center;
     cursor: pointer;
     transition: background 0.2s;
@@ -356,8 +356,8 @@
 }
 
 .handwerk__desc span {
-    display:inline-block; 
-    margin-top:10px;
+    display: inline-block;
+    margin-top: 10px;
 }
 
 #handwerk__line {
@@ -432,7 +432,7 @@
     margin-top: 10px;
 }
 
-.meats{
+.meats {
     width: 100%;
     height: 540px;
     border-top: 3px solid rgba(0, 0, 0, 0.94);
@@ -471,5 +471,152 @@
     display: flex;
     width: 100%;
     height: 1909px;
+    flex-direction: column;
     background-color: rgba(0, 0, 0, 0.94);
+    align-items: center;
+}
+
+.awards__container {
+    display: flex;
+    width: 1035px;
+    height: 202px;
+    margin-top: 127px;
+    justify-content: space-between;
+    margin-bottom: 127px;
+}
+
+.awards__desc {
+    display: flex;
+    flex-direction: column;
+    width: 409px;
+    height: 202px;
+}
+
+.awards__desc span {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 50px;
+    margin-top: 40px;
+    margin-bottom: 32px;
+}
+
+.awards__box {
+    display: flex;
+    width: 1075px;
+    height: 181px;
+    margin-top: 127px;
+    justify-content: space-between;
+    margin-bottom: 136px;
+}
+
+.awards__title {
+    display: flex;
+    width: 240px;
+    height: 181px;
+    font-weight: 600;
+    align-items: center;
+    font-size: 32px;
+    line-height: 50px;
+}
+
+.awards__picture-text-box {
+    display: flex;
+    width: 757px;
+    height: 181px;
+}
+
+.awards__picture-text-box div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-weight: 200;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.51);
+    line-height: 29px;
+    font-family: 'Roboto';
+    height: 181px;
+}
+
+.awards__picture-text-box div:nth-child(1) {
+    width: 176px;
+    margin-right: 71px;
+    gap: 14px;
+}
+
+.awards__picture-text-box div:nth-child(2) {
+    width: 120px;
+    margin-right: 71px;
+    margin-top: 7px;
+    gap: 22px;
+}
+
+.awards__picture-text-box div:nth-child(3) {
+    width: 126px;
+    margin-right: 75px;
+    margin-top: 1px;
+    gap: 15px;
+}
+
+.awards__picture-text-box div:nth-child(4) {
+    width: 121px;
+    gap: 15px
+}
+
+.reviews {
+    display: flex;
+    width: 100%;
+    height: 902px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reviews__title {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 100%;
+    margin-top: 42px;
+    margin-bottom: 30px;
+    color: rgb(124,124,124);
+}
+
+.title__text {
+    display: inline-block;
+    width: 468px;
+    height: 85px;
+    font-size: 32px;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.reviews__container {
+    display: flex;
+    width: 1095px;
+    height: 414px;
+    gap: 16px;
+    justify-content: center;
+        border: 3px solid white;
+    align-items: center;
+    margin-bottom: 91px;
+}
+
+.reviews__container__black-box {
+    display: flex;
+    width: 317px;
+    height: 257px;
+    background-color: rgb(28,28,28);
+    align-items: center;
+    justify-content: center;
+}
+
+.reviews__container__grey-box {
+    display: flex;
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 24px;
+    color: rgb(44,44,44);
+    text-align: center;
 }
